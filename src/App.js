@@ -6,16 +6,16 @@ function App() {
   return (
     <div className="App">
 
-      <h1><span role="img" aria-label="antenna-bars">📶</span>&nbsp; WiFi Login Card</h1>
+      <h1><span role="img" aria-label="antenna-bars">📶</span>&nbsp; Carte WiFi pour identifiants </h1>
 
       <p className="tag">
-        Print a simple card with your WiFi login details. Tape it to the fridge, keep it in your wallet, etc.
+        Imprimez une simple carte avec vos informations de connexion WiFi. Collez-le sur le réfrigérateur, gardez-le dans votre portefeuille, etc.
       </p>
 
       <p className="tag">
-        Your WiFi information is never sent to the server.
-        No tracking, analytics, or fingerprinting are used on this website.
-        View the <a href="https://github.com/bndw/wifi-card">source code</a>.
+        Vos informations WiFi ne sont jamais envoyées au serveur.
+        Aucun suivi, analyse ou empreinte digitale n'est utilisé sur ce site Web.
+        Voir le <a href="https://github.com/l1kw1d/connexion.wifi">code</a>.
       </p>
 
       <Card />
