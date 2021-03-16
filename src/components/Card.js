@@ -34,7 +34,7 @@ const Card = () => {
       <fieldset id="print-area">
         <legend></legend>
 
-        <h1>WiFi Login</h1>
+        <h1>WiFi SSID</h1>
         <hr/>
 
         <div className="details">
@@ -42,13 +42,13 @@ const Card = () => {
 
           <div className="text">
             <label>Network name</label>
-            <input id="ssid" type="text" maxLength="32" placeholder="WiFi Network name" value={ssid} onChange={event => setSsid(event.target.value)} />
+            <input id="ssid" type="text" maxLength="32" placeholder="Nom du WiFi/SSID" value={ssid} onChange={event => setSsid(event.target.value)} />
             <label>Password</label>
-            <input id="password" type="text" maxLength="64" placeholder="Password" value={password} onChange={event => setPassword(event.target.value)} />
+            <input id="password" type="text" maxLength="64" placeholder="Mot de Passe" value={password} onChange={event => setPassword(event.target.value)} />
           </div>
         </div>
 
-        <p><span role="img" aria-label="mobile-phone">📸📱</span>Point your phone's camera at the QR Code to connect automatically</p>
+        <p><span role="img" aria-label="mobile-phone">📸📱</span>Pointe la camera de ton mobile vers le code QR pour connecter automatiquement</p>
       </fieldset>
       <div className="print-btn">
         <button onClick={window.print}>Print</button>
